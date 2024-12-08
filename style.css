@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 1px;
+    padding: 1px;
+}
+
+#grid-container {
+    display: flex;
+    gap: 1px;
+    /* height: 100vh; */
+    /* background-color: whie; */
+}
+
+.colDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+    height: 90vh;
+    gap: 1px;
+}
+
+.square {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: black;
+    flex: 1;
+}
+
+.square:hover {
+    background-color: white;
+}
